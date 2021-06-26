@@ -1,0 +1,144 @@
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-06-14 16:47 IST
+Nmap scan report for 10.142.111.1
+Host is up (0.35s latency).
+Not shown: 997 filtered ports
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 5.4p1 (FreeBSD 20100308; protocol 2.0)
+| ssh-hostkey: 
+|   1024 02:a7:49:05:97:c7:34:7b:c1:09:8a:15:56:9f:b6:90 (DSA)
+|_  2048 c8:e5:29:d8:71:e3:67:eb:45:57:53:f8:2f:ff:e2:9a (RSA)
+53/tcp open  domain  dnsmasq 2.55
+| dns-nsid: 
+|_  bind.version: dnsmasq-2.55
+80/tcp open  http    lighttpd 1.4.29
+| http-cookie-flags: 
+|   /: 
+|     PHPSESSID: 
+|_      httponly flag not set
+|_http-server-header: lighttpd/1.4.29
+|_http-title: Login
+MAC Address: 00:50:56:A2:25:EC (VMware)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose|media device|broadband router
+Running (JUST GUESSING): FreeBSD 9.X (86%), OpenBSD 4.X|5.X (85%), Apple Apple TV 5.X (85%), Scientific Atlanta embedded (85%)
+OS CPE: cpe:/o:freebsd:freebsd:9.1 cpe:/o:openbsd:openbsd:4.3 cpe:/o:openbsd:openbsd:5.2 cpe:/a:apple:apple_tv:5.2.1 cpe:/a:apple:apple_tv:5.3 cpe:/h:scientificatlanta:webstar_dpc2100
+Aggressive OS guesses: FreeBSD 9.1-PRERELEASE (86%), OpenBSD 4.3 (85%), OpenBSD 5.2 (85%), Apple TV 5.2.1 or 5.3 (85%), Scientific Atlanta WebSTAR DPC2100 cable modem (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+Service Info: OS: FreeBSD; CPE: cpe:/o:freebsd:freebsd
+
+Nmap scan report for 10.142.111.6
+Host is up (0.33s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 6.0p1 Debian 4+deb7u2 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 6d:4b:da:62:f8:ce:cb:17:e7:d3:5b:20:af:58:a7:61 (DSA)
+|   2048 4b:d2:c8:f7:82:ab:30:01:ba:fb:c0:95:06:5a:ba:7b (RSA)
+|_  256 03:4b:f6:bd:2f:e0:69:79:11:77:c1:e5:ef:20:53:a6 (ECDSA)
+MAC Address: 00:50:56:A2:D9:5B (VMware)
+Aggressive OS guesses: Linux 3.2 (95%), Linux 3.2 - 3.10 (95%), Linux 3.2 - 3.16 (95%), ASUS RT-N56U WAP (Linux 3.4) (95%), Linux 3.16 (95%), Linux 3.5 (94%), Olivetti 65C-9 printer (94%), Linux 2.6.32 - 3.10 (94%), Linux 2.6.32 - 3.9 (94%), XBMCbuntu Frodo v12.2 (Linux 3.X) (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Nmap scan report for 10.142.111.48
+Host is up (0.33s latency).
+Not shown: 996 closed ports
+PORT     STATE SERVICE       VERSION
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp  open  microsoft-ds  Windows XP microsoft-ds
+3389/tcp open  ms-wbt-server Microsoft Terminal Services
+MAC Address: 00:50:56:A2:48:08 (VMware)
+Aggressive OS guesses: Microsoft Windows XP SP2 or SP3 (96%), Microsoft Windows XP SP2 or SP3, or Windows Embedded Standard 2009 (96%), Microsoft Windows XP SP2 or SP3, or Windows Server 2003 (96%), Microsoft Windows XP SP3 (96%), Microsoft Windows XP Professional SP2 (96%), Microsoft Windows XP SP2 (96%), Microsoft Windows CE 5.0 (95%), Microsoft Windows Mobile 6 (CE OS 5.0 - 5.2) (94%), Microsoft Windows Mobile 6.0 - 6.1 (94%), Microsoft Windows Server 2003 SP2 (94%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+Service Info: OSs: Windows, Windows XP; CPE: cpe:/o:microsoft:windows, cpe:/o:microsoft:windows_xp
+
+Host script results:
+|_clock-skew: mean: 3h30m02s, deviation: 4h56m59s, median: 1s
+|_nbstat: NetBIOS name: ELS-WINXP, NetBIOS user: <unknown>, NetBIOS MAC: 00:50:56:a2:48:08 (VMware)
+| smb-os-discovery: 
+|   OS: Windows XP (Windows 2000 LAN Manager)
+|   OS CPE: cpe:/o:microsoft:windows_xp::-
+|   Computer name: els-winxp
+|   NetBIOS computer name: ELS-WINXP\x00
+|   Workgroup: WORKGROUP\x00
+|_  System time: 2021-06-14T04:20:45-07:00
+| smb-security-mode: 
+|   account_used: <blank>
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+|_smb2-time: Protocol negotiation failed (SMB2)
+
+Nmap scan report for 10.142.111.96
+Host is up (0.33s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE VERSION
+80/tcp open  http    Apache httpd 2.2.22 ((Debian))
+|_http-server-header: Apache/2.2.22 (Debian)
+|_http-title: AwdMgmt
+MAC Address: 00:50:56:A2:A7:20 (VMware)
+Aggressive OS guesses: Linux 3.2 (95%), Linux 3.2 - 3.10 (95%), Linux 3.2 - 3.16 (95%), ASUS RT-N56U WAP (Linux 3.4) (95%), Linux 3.16 (95%), Olivetti 65C-9 printer (94%), Linux 2.6.32 - 3.10 (94%), Linux 2.6.32 - 3.9 (94%), Linux 3.5 (93%), XBMCbuntu Frodo v12.2 (Linux 3.X) (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Nmap scan report for 10.142.111.99
+Host is up (0.34s latency).
+Not shown: 997 filtered ports
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 5.4p1 (FreeBSD 20100308; protocol 2.0)
+| ssh-hostkey: 
+|   1024 02:a7:49:05:97:c7:34:7b:c1:09:8a:15:56:9f:b6:90 (DSA)
+|_  2048 c8:e5:29:d8:71:e3:67:eb:45:57:53:f8:2f:ff:e2:9a (RSA)
+53/tcp open  domain  dnsmasq 2.55
+| dns-nsid: 
+|_  bind.version: dnsmasq-2.55
+80/tcp open  http    lighttpd 1.4.29
+| http-cookie-flags: 
+|   /: 
+|     PHPSESSID: 
+|_      httponly flag not set
+|_http-server-header: lighttpd/1.4.29
+|_http-title: Login
+MAC Address: 00:50:56:A2:54:1B (VMware)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose|specialized|media device|broadband router
+Running (JUST GUESSING): OpenBSD 4.X|3.X|5.X (94%), FreeBSD 9.X|7.X (86%), Comau embedded (86%), Apple Apple TV 5.X (85%), Scientific Atlanta embedded (85%)
+OS CPE: cpe:/o:openbsd:openbsd:4.3 cpe:/o:freebsd:freebsd:9.1 cpe:/o:freebsd:freebsd:7.0 cpe:/o:openbsd:openbsd:3 cpe:/o:openbsd:openbsd:4 cpe:/a:apple:apple_tv:5.2.1 cpe:/a:apple:apple_tv:5.3 cpe:/h:scientificatlanta:webstar_dpc2100
+Aggressive OS guesses: OpenBSD 4.3 (94%), FreeBSD 9.1-PRERELEASE (86%), Comau C4G robot control unit (86%), FreeBSD 7.0-RELEASE (86%), OpenBSD 3.8 - 4.7 (85%), OpenBSD 4.1 (85%), OpenBSD 4.9 - 5.1 (85%), OpenBSD 5.2 (85%), Apple TV 5.2.1 or 5.3 (85%), Scientific Atlanta WebSTAR DPC2100 cable modem (85%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+Service Info: OS: FreeBSD; CPE: cpe:/o:freebsd:freebsd
+
+Nmap scan report for 10.142.111.100
+Host is up (0.32s latency).
+All 1000 scanned ports on 10.142.111.100 are closed
+MAC Address: 00:50:56:A2:A7:20 (VMware)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 1 hop
+
+Nmap scan report for 10.142.111.213
+Host is up (0.34s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE VERSION
+81/tcp open  http    Apache httpd 2.2.22 ((Debian))
+|_http-server-header: Apache/2.2.22 (Debian)
+|_http-title: Site doesn't have a title (text/html).
+MAC Address: 00:50:56:A2:A7:20 (VMware)
+Aggressive OS guesses: Linux 3.2 (95%), Linux 3.2 - 3.16 (95%), Olivetti 65C-9 printer (95%), ASUS RT-N56U WAP (Linux 3.4) (95%), Linux 3.2 - 3.10 (94%), XBMCbuntu Frodo v12.2 (Linux 3.X) (94%), Linux 3.16 (94%), Linux 3.5 (94%), Linux 2.6.32 - 3.10 (93%), Linux 2.6.32 - 3.9 (93%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+
+Post-scan script results:
+| ssh-hostkey: Possible duplicate hosts
+| Key 1024 02:a7:49:05:97:c7:34:7b:c1:09:8a:15:56:9f:b6:90 (DSA) used by:
+|   10.142.111.1
+|   10.142.111.99
+| Key 2048 c8:e5:29:d8:71:e3:67:eb:45:57:53:f8:2f:ff:e2:9a (RSA) used by:
+|   10.142.111.1
+|_  10.142.111.99
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 7 IP addresses (7 hosts up) scanned in 285.81 seconds

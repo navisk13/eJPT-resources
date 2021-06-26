@@ -1,0 +1,56 @@
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-06-14 16:26 IST
+Nmap scan report for 10.142.111.1
+Host is up (0.32s latency).
+Not shown: 997 filtered ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+53/tcp open  domain
+80/tcp open  http
+MAC Address: 00:50:56:A2:25:EC (VMware)
+
+Nmap scan report for 10.142.111.6
+Host is up (0.38s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+MAC Address: 00:50:56:A2:D9:5B (VMware)
+
+Nmap scan report for 10.142.111.48
+Host is up (0.35s latency).
+Not shown: 996 closed ports
+PORT     STATE SERVICE
+135/tcp  open  msrpc
+139/tcp  open  netbios-ssn
+445/tcp  open  microsoft-ds
+3389/tcp open  ms-wbt-server
+MAC Address: 00:50:56:A2:48:08 (VMware)
+
+Nmap scan report for 10.142.111.96
+Host is up (0.32s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+80/tcp open  http
+MAC Address: 00:50:56:A2:A7:20 (VMware)
+
+Nmap scan report for 10.142.111.99
+Host is up (0.37s latency).
+Not shown: 997 filtered ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+53/tcp open  domain
+80/tcp open  http
+MAC Address: 00:50:56:A2:54:1B (VMware)
+
+Nmap scan report for 10.142.111.100
+Host is up (0.35s latency).
+All 1000 scanned ports on 10.142.111.100 are closed
+MAC Address: 00:50:56:A2:A7:20 (VMware)
+
+Nmap scan report for 10.142.111.213
+Host is up (0.36s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+81/tcp open  hosts2-ns
+MAC Address: 00:50:56:A2:A7:20 (VMware)
+
+Nmap done: 7 IP addresses (7 hosts up) scanned in 125.84 seconds

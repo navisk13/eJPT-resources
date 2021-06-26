@@ -1,0 +1,18 @@
+Starting Nmap 7.80 ( https://nmap.org ) at 2021-06-14 16:17 IST
+Nmap scan report for 10.142.111.1
+Host is up (0.27s latency).
+Nmap scan report for 10.142.111.6
+Host is up (0.53s latency).
+Nmap scan report for 10.142.111.48
+Host is up (0.33s latency).
+Nmap scan report for 10.142.111.96
+Host is up (0.27s latency).
+Nmap scan report for 10.142.111.99
+Host is up (0.27s latency).
+Nmap scan report for 10.142.111.100
+Host is up (0.27s latency).
+Nmap scan report for 10.142.111.213
+Host is up (0.32s latency).
+Nmap scan report for 10.142.111.240
+Host is up (0.00018s latency).
+Nmap done: 256 IP addresses (8 hosts up) scanned in 10.09 seconds

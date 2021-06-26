@@ -1,0 +1,5 @@
+Start wireshark and turn on packet capturing for the ovpn tunnel interface.
+Access the websites one by one on the web browser
+Right click on a captured packet and select follow tcp stream
+
+The http packet will show the username and password in plain text on wireshark, whereas the https packet will show unreadable encrypted data.
